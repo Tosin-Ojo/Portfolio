@@ -53,6 +53,7 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
+                        style={{ pointerEvents: !url ? 'none' : '' }}
                         href={url || '#!'}
                       >
                         See Live
